@@ -1,0 +1,49 @@
+.cartcontrol {
+  font-size: 0;
+}
+.cartcontrol .cart-decrease {
+  display: inline-block;
+}
+.cartcontrol .cart-decrease.fade-enter-active,
+.cartcontrol .cart-decrease.fade-leave-active {
+  transition: all 0.25s linear;
+}
+.cartcontrol .cart-decrease.fade-enter,
+.cartcontrol .cart-decrease.fade-leave-active {
+  opacity: 0;
+  transform: translate3(24px, 0, 0);
+}
+.cartcontrol .cart-decrease.inner-enter-active,
+.cartcontrol .cart-decrease.inner-leave-active {
+  transition: all 0.25s linear;
+  transform: rotate(0);
+}
+.cartcontrol .cart-decrease.inner-enter,
+.cartcontrol .cart-decrease.inner-leave-active {
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+.cartcontrol .cart-decrease .inner {
+  display: inline-block;
+  padding: 6px;
+  line-height: 24px;
+  font-size: 24px;
+  color: #00a0dc;
+}
+.cartcontrol .cart-count {
+  vertical-align: top;
+  width: 12px;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
+  line-height: 24px;
+  color: #93999f;
+}
+.cartcontrol .cart-add {
+  display: inline-block;
+  padding: 6px;
+  line-height: 24px;
+  font-size: 24px;
+  color: #00a0dc;
+}
